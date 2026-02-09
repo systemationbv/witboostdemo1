@@ -8,5 +8,6 @@ metadata:
       title: Project0 Domain
 spec:
   owner: 'group:datameshplatform'
+  type: 'project'
   mesh:
     name: 'Project0'
