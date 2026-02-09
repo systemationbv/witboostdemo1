@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Domain
+kind: Location
 metadata:
   name: marketing
   description: Everything related to marketing
