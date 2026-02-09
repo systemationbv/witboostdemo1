@@ -12,3 +12,4 @@ spec:
   domain: 'finance'
   mesh:
     name: 'Project0'
+    version: '0.0.0'
