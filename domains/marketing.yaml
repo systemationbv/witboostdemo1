@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: marketing
+  description: Everything related to marketing
+  links:
+    - url: http://witboost.systemation.com/domain/marketing/
+      title: Marketing Domain
+spec:
+  owner: 'group:datameshplatform'
+  mesh:
+    name: 'Marketing'

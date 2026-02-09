@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: organization
+  description: Everything related to organization
+  links:
+    - url: http://witboost.systemation.com/domain/organization/
+      title: Organization Domain
+spec:
+  owner: 'group:datameshplatform'
+  mesh:
+    name: 'Organization'
