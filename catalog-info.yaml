@@ -8,3 +8,4 @@ spec:
     - ./domains/finance.yaml
     - ./domains/marketing.yaml
     - ./domains/organization.yaml
+    - ./projects/project0.yaml
