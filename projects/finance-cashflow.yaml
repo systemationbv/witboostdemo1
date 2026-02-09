@@ -7,7 +7,7 @@ spec:
   type: dataproduct
   lifecycle: experimental
   owner: group:witboost
-  domain: domain:finance
+  domain: 'finance'
   mesh:
     name: CashFlow
     version: 0.0.0
