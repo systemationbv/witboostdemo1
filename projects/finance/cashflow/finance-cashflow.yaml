@@ -10,7 +10,7 @@ spec:
   owner: group:witboost
   domain: domain:finance
   mesh:
-    name: ${{ parameters.displayName }}$
-    version: ${{ parameters.version.major }}.${{ parameters.version.minor }}.${{ parameters.version.patch }}$
+    name: ${{ parameters.displayName }}
+    version: ${{ parameters.version.major }}.${{ parameters.version.minor }}.${{ parameters.version.patch }}
     fullyQualifiedName: Liquidity ${{ parameters.displayName }}s
     maturity: Strategic
