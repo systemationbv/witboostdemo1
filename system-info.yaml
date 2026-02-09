@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: all-projects
+  description: A collection of all Data Mesh projects
+spec:
+  targets:
+    - ./projects/finance-cashflow.yaml

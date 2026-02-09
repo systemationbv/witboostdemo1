@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: System # each entity has a `kind` field that defines its type
 metadata:
-  name: finance.cashflow.2
+  name: finance.cashflow
   description: This represents all the operating cashflows generating incoming or outgoing liquidity
 spec:
   type: dataproduct
@@ -10,6 +10,6 @@ spec:
   domain: domain:finance
   mesh:
     name: CashFlow
-    version: 2.0.0
+    version: 0.0.0
     fullyQualifiedName: Liquidity Cash Flows
     maturity: Strategic
