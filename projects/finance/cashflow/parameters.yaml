@@ -1,0 +1,9 @@
+parameters:
+  description: This represents all the operating cashflows generating incoming or outgoing liquidity
+  lifecycle: experimental
+  displayName: Cash Flow
+  maturity: Strategic
+  version:
+    major: 0
+    minor: 0
+    patch: 0

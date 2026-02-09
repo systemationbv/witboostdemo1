@@ -1,0 +1,16 @@
+%SKELETON
+apiVersion: backstage.io/v1alpha1
+kind: System # each entity has a `kind` field that defines its type
+metadata:
+  name: finance.cashflow
+  description: ${{ parameters.description }}
+spec:
+  type: dataproduct
+  lifecycle: ${{ parameters.lifecycle }}
+  owner: group:witboost
+  domain: domain:finance
+  mesh:
+    name: ${{ parameters.displayName }}$
+    version: ${{ parameters.version.major }}.${{ parameters.version.minor }}.${{ parameters.version.patch }}$
+    fullyQualifiedName: Liquidity ${{ parameters.displayName }}s
+    maturity: Strategic

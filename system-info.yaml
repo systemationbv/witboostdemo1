@@ -5,4 +5,4 @@ metadata:
   description: A collection of all Data Mesh projects
 spec:
   targets:
-    - ./projects/finance-cashflow.yaml
+    - ./projects/finance/cashflow/finance-cashflow.yaml
