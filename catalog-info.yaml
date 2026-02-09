@@ -8,4 +8,18 @@ spec:
     - ./domains/finance.yaml
     - ./domains/marketing.yaml
     - ./domains/organization.yaml
-    - ./projects/project0.yaml
+---
+kind: System
+metadata:
+  name: finance.cashflow.2
+  description: This represents all the operating cashflows generating incoming or outgoing liquidity
+spec:
+  type: dataproduct
+  lifecycle: experimental
+  owner: group:witboost
+  domain: domain:finance
+  mesh:
+    name: Cash Flow
+    version: 2.0.0
+    fullyQualifiedName: Liquidity Cash Flows
+    maturity: Strategic
