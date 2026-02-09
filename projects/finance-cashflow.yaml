@@ -1,13 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: System # each entity has a `kind` field that defines its type
 metadata:
-  name: finance.cashflow.2
+  name: finance.cashflow
   description: This represents all the operating cashflows generating incoming or outgoing liquidity
 spec:
   type: dataproduct
   lifecycle: experimental
   owner: group:witboost
-  domain: finance
+  domain: domain:finance
   mesh:
     name: CashFlow
     version: 0.0.0
