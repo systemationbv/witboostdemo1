@@ -8,4 +8,3 @@ spec:
     - ./domains/finance.yaml
     - ./domains/marketing.yaml
     - ./domains/organization.yaml
-    - ./projects/finance-cashflow.yaml
