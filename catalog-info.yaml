@@ -9,6 +9,7 @@ spec:
     - ./domains/marketing.yaml
     - ./domains/organization.yaml
 ---
+apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: finance.cashflow.2
