@@ -9,5 +9,6 @@ metadata:
 spec:
   owner: 'group:datameshplatform'
   type: 'project'
+  domain: 'finance'
   mesh:
     name: 'Project0'
